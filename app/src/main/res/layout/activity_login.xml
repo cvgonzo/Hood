@@ -19,12 +19,14 @@
         android:layout_marginBottom="8dp"
         android:visibility="gone" />
 
+
     <ScrollView
         android:id="@+id/login_form"
         android:layout_width="match_parent"
         android:layout_height="205dp"
         android:layout_weight="1.05"
         android:layout_gravity="center_vertical">
+
 
         <LinearLayout
             android:id="@+id/email_login_form"
@@ -57,26 +59,21 @@
             <Button
                 android:id="@+id/email_sign_in_button"
                 style="?android:textAppearanceSmall"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
+                android:layout_marginLeft="125dp"
                 android:text="@string/action_sign_in"
                 android:textStyle="bold" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Register"
+                android:layout_marginLeft="125dp"/>
 
         </LinearLayout>
     </ScrollView>
 
-
-    <RelativeLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/HG10-SO"/>
-
-    </RelativeLayout>
 
 </LinearLayout>
